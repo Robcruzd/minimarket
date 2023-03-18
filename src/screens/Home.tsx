@@ -18,7 +18,7 @@ const Home = (props: { navigation: any; }) => {
                         products.map((product, index) => {
                             const myCart = productsRedux.find((element:any) => product.id === element.id);
                             return (
-                                <Card myCart={myCart} product={product} index={index} navigation={props.navigation}/>
+                                <Card key={index} myCart={myCart} product={product} index={index} navigation={props.navigation}/>
                             )
                         })
                     }

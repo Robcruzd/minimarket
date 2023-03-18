@@ -71,7 +71,7 @@ const Product = (props: {
                     </View>
                 </View>
                 <View style={styles.viewDescription}>
-                    <Text>{product.description}</Text>
+                    <Text style={styles.textDescription}>{product.description}</Text>
                 </View>
             </ScrollView>
         </SafeAreaView>
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
         paddingHorizontal:5
     },
     scroll: {
-        marginBottom:70
+        marginBottom:80
     },
     viewProduct: { 
         flexDirection: 'column', 
@@ -143,5 +143,8 @@ const styles = StyleSheet.create({
         borderTopColor: "#ECBDF2",
         borderBottomColor: "#ECBDF2", 
         marginVertical:5
+    },
+    textDescription:{
+        color: "#888"
     }
 })
