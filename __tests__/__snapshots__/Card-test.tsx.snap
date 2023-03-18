@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "borderColor": "#aaaaaa",
+      "borderWidth": 1,
+      "margin": 5,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "backgroundColor": "#A51BB6",
+          "borderRadius": 50,
+          "color": "#fff",
+          "height": 30,
+          "left": 5,
+          "position": "absolute",
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "top": 5,
+          "width": 30,
+          "zIndex": 2,
+        },
+        undefined,
+      ]
+    }
+    testID="circleNumber"
+  >
+    0
+  </Text>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/image.png",
+      }
+    }
+    style={
+      {
+        "height": 358,
+        "width": 358,
+      }
+    }
+  />
+</View>
+`;

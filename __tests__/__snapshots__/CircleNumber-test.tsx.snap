@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleNumber /> renders correctly with props 1`] = `
+<Text
+  style={
+    [
+      {
+        "backgroundColor": "#A51BB6",
+        "borderRadius": 50,
+        "color": "#fff",
+        "height": 30,
+        "left": 5,
+        "position": "absolute",
+        "textAlign": "center",
+        "textAlignVertical": "center",
+        "top": 5,
+        "width": 30,
+        "zIndex": 2,
+      },
+      undefined,
+    ]
+  }
+  testID="circleNumber"
+>
+  5
+</Text>
+`;
