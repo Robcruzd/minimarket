@@ -1,10 +1,10 @@
 # minimarket
 
-Esta aplicación se generó utilizando react-native en su versión 0.71.4, para documentación al respecto se puede ir a https://reactnative.dev/docs/getting-started
+Esta aplicación se generó utilizando react-native en su versión 0.71.4, para documentación al respecto se puede ir a https://reactnative.dev/
 
 # Como correr en local
 
-Para correr el proyecto, se debe seguir los pasos descritos en el presente link: https://reactnative.dev/docs/getting-started
+Para correr el proyecto, se debe seguir los pasos descritos en el presente link: https://reactnative.dev/docs/getting-started.
 En el cual, se describe las dependencias que se deben tener para su ejecución, como java o xcode, dependiendo la plataforma a usar.
 Es de tener en cuenta, que para usar xcode y ejecutar una aplicación en ios, se necesita como base un sistema operativo OSX de Apple.
 

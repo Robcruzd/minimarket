@@ -19,7 +19,6 @@ const App = () => {
                     <Stack.Screen name="Home" component={Home}/>
                     <Stack.Screen name="Product" component={Product}/>
                     <Stack.Screen name="ShoppingCart" component={ShoppingCart}/>
-                    {/* <Stack.Screen name="Login" component={Login}/> */}
                 </Stack.Navigator>
                 </NativeBaseProvider>
             </NavigationContainer>
